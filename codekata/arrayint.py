@@ -4,7 +4,9 @@ add=0
 l=map(int,input().split())
 li=list(l)
 if(len(li)==n):
-  for i in range(len(li)):
+  for i in range (len(li)):
     if(i<m):
       add=add+li[i]
-  print (add)
+  print(add)
+
+
