@@ -1,11 +1,11 @@
-num = int(input())
-sum = 0
-temp = num
-while temp > 0:
-  digit = temp % 10
-  sum += digit ** 3
-  temp //= 10
-if num == sum:
+x=int(input())
+y=0
+t=x
+while t>0:
+  digit=t%10
+  y+=digit**3
+  t//=10
+if x==y:
     print("yes")
 else:
     print("no")
