@@ -1,3 +1,3 @@
-x,y=map(int,input().split())
-z=x+y
+t,s=map(int,input().split())
+z=t+s
 print(z)
