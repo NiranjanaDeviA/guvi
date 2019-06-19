@@ -1,2 +1,2 @@
-li=list(map(int,input().split()))
-print(min(li))
+l=list(map(int,input().split()))
+print(min(l))
