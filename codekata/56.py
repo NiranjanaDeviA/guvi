@@ -1,6 +1,6 @@
-text=input()
-a=any(char.isdigit() for char in text)
-if(a==1):
+t=input()
+x=any(char.isdigit() for char in t)
+if(x==1):
   print('Yes')
 else:
   print('No')
