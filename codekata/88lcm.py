@@ -1,7 +1,7 @@
 aa,bb=map(int,input().split())
-a=aa
-b=bb
+x=aa
+y=bb
 while(bb):
     aa,bb=bb,aa%bb
-c=(a*b)//aa
-print(c)
+z=(x*y)//aa
+print(z)
