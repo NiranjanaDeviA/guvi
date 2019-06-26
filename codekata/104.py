@@ -1,2 +1,2 @@
-t,s=map(int,input().split())
-print(t**s)
+i,j=map(int,input().split())
+print(i**j)
