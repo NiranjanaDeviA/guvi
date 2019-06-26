@@ -1,2 +1,2 @@
-r,r1=map(int,input().split())
-print(r**r1)
+x,y=map(int,input().split())
+print(x**y)
